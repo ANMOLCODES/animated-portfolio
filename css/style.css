@@ -47,13 +47,13 @@ h3{
 }
 .middle-cloud{
     position: absolute;
-    left: 200px;
+    left: 230px;
     bottom: 540px;
 }
 .bottom-cloud{
     position: absolute;
-    right: 200px;
-    top: 230px;
+    right: 240px;
+    top: 290px;
 }
 .skyline{
     width: 65%;
@@ -65,9 +65,16 @@ h3{
 .middle-container h3{
     color: #11999E;
 }
+.middle-container p{
+    line-height: 2;
+}
+.intro{
+    width: 35%;
+    margin: auto;
+}
 .skill-row{
     width: 50%;
-    margin: 80px auto 80px auto;
+    margin: 80px auto 70px auto;
     text-align: left;
 }
 
@@ -76,7 +83,7 @@ h3{
 } */
 .profile-img{
     width: 250px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .tech-work{
     width: 35%;
@@ -90,9 +97,15 @@ h3{
     float: right;
     margin-left: 30px;
 }
+
+.contact-message{
+    width: 45%;
+    margin: 30px auto 30px auto;
+}
 .button{
     background-color: #11999E;
     border: none;
+    border-radius: 5%;
     color: #DDDBF1;
     padding: 15px 32px;
     text-align: center;
@@ -103,7 +116,7 @@ h3{
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    
+    margin-bottom: 20px;
 }
 .button:hover{
     background-color: #383F51;
@@ -128,4 +141,7 @@ h3{
 }
 .bottom-container span{
     color: #66BFBF;
+}
+.copyright{
+    font-size: .75rem;
 }
